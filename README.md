@@ -1,5 +1,3 @@
-# cassandra-data-modeling
-
 ### Udacity Data Engineer Nanodegree project
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
 
@@ -11,27 +9,6 @@ The task is to create a Cassandra database for this analysis.
 - Docker
 - Docker-Compose 
 
-### Project structure explanation
-```
-postgres-data-modeling
-│   README.md                 # Project description
-│   docker-compose.yml        # Postgres container description   
-│   requirements.txt          # Python dependencies
-|
-└───event_data                # The dataset partitioned by day
-|   | ...
-|                 
-└───src                       # Source code
-|   |               
-│   └───notebooks             # Jupyter notebooks
-│   |   │  music_app.ipynb    # Interactive notebook instead of python scripts
-|   |   
-|   └───scripts
-|       |  process_events.py  # Collect records in one csv file
-│       │  create_tables.py   # Schema creation script
-|       |  etl.py             # ETL script
-|       |  csql_queries.py    # Definition of all csql queries
-```
 
 ### Instructions for running locally
 
