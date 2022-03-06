@@ -5,6 +5,10 @@
 env/
 venv/
 
+event_datafile_new.csv
+src/event_datafile_new.csv
+*__init__.py*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
